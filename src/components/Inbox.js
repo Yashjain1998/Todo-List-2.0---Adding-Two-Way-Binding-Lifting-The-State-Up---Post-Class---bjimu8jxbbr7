@@ -19,7 +19,7 @@ const Inbox = ({list, append}) => {
     <div>
       <h3>Inbox</h3>
       {!newTask && (
-        <button className="add-new" onClick={()=>changeTask(!newTask)} id='add-new'>
+        <button className="new" onClick={()=>changeTask(!newTask)} id='add-new'>
           +Add New
         </button>
       )}
